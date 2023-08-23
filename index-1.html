@@ -1,0 +1,46 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./movimiento.css">
+<link rel="stylesheet" href="./style.css">
+    <title>Calculadora</title>
+</head>
+<body>
+
+<header>
+<div class="box-1">
+<h2 class="box-1-welcom">Bienvenido a la Calculadora</h2>
+</div>
+</header>
+
+<main>
+<div class="box-2">
+<p class="box-2-cuestion">¿Que desea Realizar?</p>
+</div>
+
+<div class="box-2-resultados">
+<input type="number" id="n1"  placeholder="Ingrese el numero">
+<input type="number" id="n2" placeholder="ingrese el numero">
+<p id="resultados">Resultado</p>
+
+</div>
+
+<div class="Calculo">
+    <button id="Resta" onclick="resta()">-</button>
+    <button id="suma" onclick="suma()">+</button>
+    <button id="Divicion" onclick="Division()">÷</button>
+    <button id="multiplicacion" onclick="Multiplicacion()">x</button>
+    </div>
+
+<!-- nuevos cambios 1-->
+</main>
+
+<script src="./funcion.js"></script>
+</body>
+</html>

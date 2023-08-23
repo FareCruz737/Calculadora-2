@@ -1,0 +1,17 @@
+
+
+
+@keyframes bienvenida {
+
+from{
+transform: translateX(-200%);
+
+}to{
+
+transform: transitionX(0%);
+
+
+}
+
+
+}

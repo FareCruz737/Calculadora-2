@@ -1,0 +1,146 @@
+:root {
+
+--lato: font-family: 'Lato', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+
+*{
+padding: 0%;
+margin: 0%;
+box-sizing: border-box;
+overflow-x: hidden;
+}
+
+.box-1{
+/* background-image: linear-gradient(to top, #9890e3 0%, #b1f4cf 100%); */
+/* background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%); */
+/* background-color: bisque; */
+background-image: url(./pexels-realtoughcandycom-11035465.jpg);
+width: 100vw;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+animation-name: cuadrado;
+animation-duration: 7s;
+animation: cuadrado 10s infinite; 
+
+}
+
+
+
+
+.box-1-welcom{
+margin: 50px 0px;
+font-size: 50px;
+font-family: var(--roboton);
+color: black;
+border: solid 4px white;
+border-radius: 15px;
+padding: 40px;
+font-weight: bolder;
+}
+
+/* presentacion de la pantalla */
+
+.box-2{
+
+ display: flex;
+justify-content: center;
+align-items: center; 
+margin: 100px 0px;
+animation-name: bienvenida;
+animation-duration: 4s;
+position: relative;
+}
+
+
+.box-2-cuestion{
+font-size: 40px;
+font-family: var(--lato);
+font-weight: bolder;
+}
+
+.box-2-resultados{
+
+display: grid;
+gap: 20px;
+grid-template-columns: repeat(2, 150px);
+justify-content: center;
+align-items: center;
+
+
+/* 
+margin: 10px 0px;
+padding: 10px 0px;
+height: 300px;
+
+border: 2px solid black;
+border-radius: 10px; */
+}
+
+#n1, #n2{
+
+padding: 10px 20px;
+border-radius: 10px;
+border: 1px solid black;
+}
+
+#Resultado{
+
+border-radius: 20px;
+padding: 15px 0px;
+border: none;
+cursor: pointer;
+background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+font-size: 15px;
+font-family: var(--lato);
+}
+
+.Calculo{
+
+display: grid;
+grid-template-columns: repeat(2,100px);
+justify-content: center; 
+align-items: center;
+gap: 15px;
+}
+
+
+#suma, #Divicion,#multiplicacion, #Resta{
+padding: 20px;
+text-align: center;
+font-size: 30px;
+border: solid 1px black; 
+border-radius: 10px;
+transition: background-color, color; 
+transition-duration: 1s ;
+
+}
+
+/* #suma:hover{
+
+background-color: #30cfd0;
+color: red;
+
+
+
+} */
+
+
+
+#resultados{
+
+position: relative;
+left: 110px;
+margin-bottom: 20px;
+font-size: 25px;
+font-family: var(--lato);
+font-weight: bolder;
+
+}
+ 
+
+
+
+
